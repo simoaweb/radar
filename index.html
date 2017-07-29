@@ -1,88 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
-  <title>Radar Turbinado</title>
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
-<body>
-	<nav class="grey darken-4">
-    	<div class="nav-wrapper container">
-      		<a href="#!" class="brand-logo"><img src="logo.png" alt="Radar Turbinado"></a>
-    	</div>
-  	</nav>
-	
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-                  <h1 class="header center black-text text-lighten-2">Feeders</h1>
-        <div class="row center">
-          <h5 class="header col s12 black-text">Clique no botão abaixo correspondente</h5>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+        <title>
+            Radar Turbinado
+        </title>
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+    <body>
+        <div class="navbar-fixed">
+            <nav class="grey darken-4">
+                <div class="nav-wrapper container">
+                    <a href="#!" class="brand-logo">
+                        <img src="logo.png" alt="Radar Turbinado">
+                    </a>
+                </div>
+            </nav>
         </div>
-        <br><br>
-      </div>
-    </div>
-    <div class="parallax">
-		<div class="parallax">
-        <video class="responsive-video" controls="false" autoplay loop muted width="100%">
-    		<source src="gru.WEBM" type="video/mp4">
-  		</video>
+        <div id="index-banner" class="parallax-container">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <h1 class="header center black-text text-lighten-2">
+                        Feeders
+                    </h1>
+                    <div class="row center">
+                        <h5 class="header col s12 black-text">
+                            Clique no botão abaixo correspondente
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax">
+                <video class="responsive-video" controls="false" autoplay loop muted width="100%">
+                    <source src="gru.WEBM" type="video/mp4">
+                </video>
+            </div>
         </div>
-	</div>
-  </div>
-
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        
-          <div class="col s12 m4">
-            <a href="#!" target="_blank" onclick="javascript:window.location.port=8081"><img src="logos/msm.png"></a>
-        </div>        
-          
-          <div class="col s12 m4">
-            <a href="https://flightaware.com/adsb/stats/user/simoaweb#stats-59457" target="_blank"><img src="logos/fa.png"></a>
+        <div class="container">
+            <div class="section">
+                <!--   Icon Section   -->
+                <div class="row">
+                    <div class="col s6">
+                        <a href="#!" target="_blank" onclick="javascript:window.location.port=8081">
+                            <img src="logos/msm.png" width="150px" height="150px">
+                        </a>
+                        <a href="https://flightaware.com/adsb/stats/user/simoaweb#stats-59457" target="_blank">
+                            <img src="logos/fa.png" width="150px" height="150px">
+                        </a>
+                        <a href="#!" target="_blank" onclick="javascript:window.location.port=8754">
+                            <img src="logos/fr24.png" width="150px" height="150px">
+                        </a>
+                    </div>
+                    <div class="col s6">
+                        <a href="#!" target="_blank" onclick="javascript:window.location.port=30053">       <img src="logos/pf.png" width="150px" height="150px">
+                        </a>
+                        <a href="http://www.coaa.co.uk/rpiusers.php?authcode=57d18934d" target="_blank"><img src="logos/pp.png" width="150px" height="150px">
+                        </a>
+                        <a href="https://www.radarbox24.com/stations/EXTRPI001016" target="_blank">
+                            <img src="logos/rb24.png" width="150px" height="150px">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="col s12 m4">
-          <a href="#!" target="_blank" onclick="javascript:window.location.port=8754"><img src="logos/fr24.png"></a>
-        </div>
-
-        <div class="col s12 m4">
-          <a href="#!" target="_blank" onclick="javascript:window.location.port=30053"><img src="logos/pf.png"></a>
-        </div>
-          
-        <div class="col s12 m4">
-            <a href="http://www.coaa.co.uk/rpiusers.php?authcode=57d18934d" target="_blank"><img src="logos/pp.png"></a>
-        </div>
-          
-        <div class="col s12 m4">
-            <a href="https://www.radarbox24.com/stations/EXTRPI001016" target="_blank"><img src="logos/rb24.png"></a>
-        </div>        
-      </div>
-
-    </div>
-  </div>
-  <footer class="page-footer grey darken-4">
-    <div class="footer-copyright grey darken-3">
-      <div class="container">
-      © Copyright 2017 Radar Turbinado 
-      </div>
-    </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-  </body>
+        <footer class="page-footer grey darken-4">
+            <div class="footer-copyright grey darken-3">
+                <div class="container">
+                    © Copyright 2017 Radar Turbinado 
+                </div>
+            </div>
+        </footer>
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js">
+        </script>
+        <script src="js/materialize.js">
+        </script>
+        <script src="js/init.js">
+        </script>
+    </body>
 </html>
